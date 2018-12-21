@@ -1,5 +1,0 @@
-package br.com.lrx.eurekaclient2;
-
-public interface FeignClient2 {
-
-}
