@@ -1,0 +1,18 @@
+package br.com.lrx.eurekaclient;
+
+import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import lombok.AllArgsConstructor;
+
+@RestController
+@AllArgsConstructor
+@RequestMapping("/api")
+public class RestService {
+
+	public ResponseEntity<String> sayH() {
+		//return new ResponseEntity<>(body:)
+	}
+}

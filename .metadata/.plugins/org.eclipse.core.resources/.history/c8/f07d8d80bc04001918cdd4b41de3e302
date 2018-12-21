@@ -1,0 +1,4 @@
+server.port=8761
+
+# Desabilita que eu eureka se registre nele mesmo
+eureka.client.register-with-eureka=false
